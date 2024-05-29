@@ -1,0 +1,11 @@
+.reviews {
+    background-color: #F6F6F7;
+
+    &__content {
+        gap: 24px;
+    }
+
+    &__item {
+        flex-basis: calc((100% / 2) - 12px);
+    }
+}

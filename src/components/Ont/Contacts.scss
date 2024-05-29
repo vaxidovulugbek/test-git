@@ -1,0 +1,15 @@
+.contacts {
+    background-color: #F6F6F7;
+
+    &__link {
+        border-radius: 50%;
+        background-color: #5855CC;
+        padding: 4px;
+        width: 32px;
+        height: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+    }
+}

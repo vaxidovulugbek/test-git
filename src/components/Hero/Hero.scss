@@ -1,0 +1,22 @@
+.hero {
+    &__link {
+        background-color: #5956CE;
+        height: 50px;
+        justify-content: center;
+        min-width: 206px;
+        transition: all .1s linear;
+    }
+
+    &__link:hover {
+        background-color: #6965d3;
+        transition: all .1s linear;
+    }
+
+    &__bg {
+        background: #00000082;
+    }
+
+    &__title {
+        line-height: normal;
+    }
+}

@@ -1,0 +1,50 @@
+import React from "react";
+import { YMaps, Map, Placemark, ZoomControl  } from "react-yandex-maps";
+import { FaTelegramPlane } from "react-icons/fa";
+import { SlSocialVkontakte } from "react-icons/sl";
+import { FaOdnoklassniki } from "react-icons/fa6";
+import "./Contacts.scss";
+
+function Ont() {
+  return (
+    <section className="contacts py-[53px]">
+      <div className="container-box">
+        <div className="flex items-center gap-9">
+          <div className="w-1/2 h-[422px] overflow-hidden">
+            <YMaps className="w-full h-full h-[422px]">
+                <Map className="w-full h-full h-[422px]" defaultState={{ center: [55.751574, 37.573856], zoom: 9 }}>
+                    <Placemark className="w-full h-full h-[422px]" geometry={[55.751574, 37.573856]} />
+                    <ZoomControl options={{ float: 'right' }} />
+                </Map>
+            </YMaps>
+          </div>
+          <div className="w-1/2 flex flex-col">
+            <p className="text-[27px] font-semibold text-gray-700 tracking-wide mb-5">Наши контакты</p>
+            <a className="text-[26px] mb-1 line text-gray-700" href="#">+7 777 777 77 77</a>
+            <a className="text-[26px] mb-3 line text-gray-700" href="#">sun_glasses@insales.ru</a>
+            <p className="text-md text-gray-600 mb-8">г Москва, ул 1-я Тверская-Ямская, д 21</p>
+            <ul className="flex items-center gap-3">
+              <li className="contacts__link">
+                <a href="#">
+                  <FaTelegramPlane />
+                </a>
+              </li>
+              <li className="contacts__link">
+                <a href="#">
+                  <SlSocialVkontakte />
+                </a>
+              </li>
+              <li className="contacts__link">
+                <a href="#">
+                  <FaOdnoklassniki />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+export default Ont;

@@ -1,0 +1,11 @@
+.advantages {
+    background-color: #F6F6F7;
+
+    &__list {
+        gap: 16px;
+    }
+
+    &__item {
+        flex-basis: calc((100% / 3) - 11px);
+    }
+}

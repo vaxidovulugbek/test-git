@@ -1,0 +1,23 @@
+.catalog {
+    background-color: #F6F6F7;
+
+    &__card-percentage {
+        background-color: #E44542;
+        color: white;
+        margin: 5px;
+        padding: 5px;
+        line-height: normal;
+        font-size: 13px;
+    }
+
+    &__card-btn {
+        background-color: #5956CE;
+        transition: all .1s linear;
+        height: 40px;
+        font-weight: 500;
+    }
+    &__card-btn:hover {
+        background-color: #6a67cb;
+        transition: all .1s linear;
+    }
+}

@@ -1,0 +1,11 @@
+.gallery {
+    background-color: #fff;
+
+    &__list {
+        gap: 24px;
+    }
+
+    &__item {
+        flex-basis: calc((100% / 4) - 18px);
+    }
+}
