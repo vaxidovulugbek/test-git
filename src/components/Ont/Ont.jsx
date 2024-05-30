@@ -1,5 +1,4 @@
 import React from "react";
-import { YMaps, Map, Placemark, ZoomControl  } from "react-yandex-maps";
 import { FaTelegramPlane } from "react-icons/fa";
 import { SlSocialVkontakte } from "react-icons/sl";
 import { FaOdnoklassniki } from "react-icons/fa6";
@@ -22,12 +21,6 @@ function Ont() {
       <div className="container-box">
         <div className="flex items-center gap-9">
           <div className="w-1/2 h-[422px] overflow-hidden">
-            {/* <YMaps className="w-full h-full h-[422px]">
-                <Map className="w-full h-full h-[422px]" defaultState={{ center: [55.751574, 37.573856], zoom: 9 }}>
-                    <Placemark className="w-full h-full h-[422px]" geometry={[55.751574, 37.573856]} />
-                    <ZoomControl options={{ float: 'right' }} />
-                </Map>
-            </YMaps> */}
             <GoogleMapReact
             className="w-full h-full h-[422px]"
         bootstrapURLKeys={{ key: "" }}
