@@ -20,7 +20,7 @@ function Ont() {
           </div>
           <div className="w-1/2 flex flex-col">
             <p className="text-[27px] font-semibold text-gray-700 tracking-wide mb-5">Наши контакты</p>
-            <a className="text-[26px] mb-1 line text-gray-700" href="#">+7 777 777 77 77</a>
+            <a className="text-[26px] mb-1 line text-gray-700" href="tel:+77777777777">+7 777 777 77 77</a>
             <a className="text-[26px] mb-3 line text-gray-700" href="#">sun_glasses@insales.ru</a>
             <p className="text-md text-gray-600 mb-8">г Москва, ул 1-я Тверская-Ямская, д 21</p>
             <ul className="flex items-center gap-3">

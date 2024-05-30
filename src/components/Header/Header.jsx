@@ -8,7 +8,7 @@ function Header() {
       <p className='text-[36px] text-white fontm uppercase leading-[40px] font-semibold'>LANDING</p>
       <div className='flex items-center text-white'>
         <BsTelephone />
-        <span className='ms-2'> +7 777 777 77 77</span>
+        <a href="tel:+77777777777" className='ms-2'> +7 777 777 77 77</a>
       </div>
     </header>
   )

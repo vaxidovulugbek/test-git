@@ -8,6 +8,8 @@ import Info from './components/Info/Info';
 import Reviews from './components/Reviews/Reviews';
 import Text from './components/Text/Text';
 import Ont from './components/Ont/Ont';
+import Write from './components/Write/Write';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
       <Advantages />
       <Text />
       <Ont />
+      <Write />
+      <Footer />
     </div>
   );
 }
