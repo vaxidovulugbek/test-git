@@ -16,6 +16,7 @@ function Ont() {
         },
         zoom: 11
       };
+      const seeee = null
   return (
     <section className="contacts py-[53px]">
       <div className="container-box">
