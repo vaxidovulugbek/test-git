@@ -16,12 +16,13 @@ function Ont() {
         },
         zoom: 11
       };
+      const seeee = null
   return (
     <section className="contacts py-[53px]">
       <div className="container-box">
         <div className="flex items-center gap-9">
           <div className="w-1/2 h-[422px] overflow-hidden">
-            <GoogleMapReact
+            {/* <GoogleMapReact
             className="w-full h-full h-[422px]"
         bootstrapURLKeys={{ key: "" }}
         defaultCenter={defaultProps.center}
@@ -33,7 +34,7 @@ function Ont() {
           lng={30.337844}
           text="My Marker"
         />
-      </GoogleMapReact>
+      </GoogleMapReact> */}
           </div>
           <div className="w-1/2 flex flex-col">
             <p className="text-[27px] font-semibold text-gray-700 tracking-wide mb-5">Наши контакты</p>
