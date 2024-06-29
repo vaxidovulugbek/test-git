@@ -1,17 +1,17 @@
-import './App.css';
-import Advantages from './components/Advantages/Advantages';
-import Catalog from './components/Catalog/Catalog';
-import Gallery from './components/Gallery/Gallery';
-import Header from './components/Header/Header';
-import Hero from './components/Hero/Hero';
-import Info from './components/Info/Info';
-import Reviews from './components/Reviews/Reviews';
-import Text from './components/Text/Text';
-import Ont from './components/Ont/Ont';
-import Write from './components/Write/Write';
-import Footer from './components/Footer/Footer';
+import "./App.css";
+import Advantages from "./components/Advantages/Advantages";
+import Catalog from "./components/Catalog/Catalog";
+import Gallery from "./components/Gallery/Gallery";
+import Header from "./components/Header/Header";
+import Hero from "./components/Hero/Hero";
+import Info from "./components/Info/Info";
+import Reviews from "./components/Reviews/Reviews";
+import Text from "./components/Text/Text";
+import Ont from "./components/Ont/Ont";
+import Write from "./components/Write/Write";
+import Footer from "./components/Footer/Footer";
 
-function App({children}) {
+function App({ children }) {
   return (
     <div className="App">
       <Header />
@@ -26,6 +26,7 @@ function App({children}) {
       <Write />
       <Footer /> */}
       {children}
+      <p>hello</p>
     </div>
   );
 }
