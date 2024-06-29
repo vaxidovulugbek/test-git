@@ -11,12 +11,12 @@ import Ont from './components/Ont/Ont';
 import Write from './components/Write/Write';
 import Footer from './components/Footer/Footer';
 
-function App() {
+function App({children}) {
   return (
     <div className="App">
       <Header />
       <Hero />
-      <Catalog />
+      {/* <Catalog />
       <Info />
       <Reviews />
       <Gallery />
@@ -24,7 +24,8 @@ function App() {
       <Text />
       <Ont />
       <Write />
-      <Footer />
+      <Footer /> */}
+      {children}
     </div>
   );
 }
