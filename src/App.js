@@ -12,6 +12,7 @@ import Write from "./components/Write/Write";
 import Footer from "./components/Footer/Footer";
 
 function App({ children }) {
+  let a = "githubdam qo'shdim"
   return (
     <div className="App">
       <Header />
