@@ -14,6 +14,8 @@ import Footer from "./components/Footer/Footer";
 function App({ children }) {
   let a = "githubdam qo'shdim";
   let b = "githubdam qo'shdim ikkinchisini";
+  let c = "githubdam qo'shdim ikkinchisini";
+  let d = "githubdam qo'shdim ikkinchisini";
   return (
     <div className="App">
       <Header />
